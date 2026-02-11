@@ -39,9 +39,9 @@ public class IntroTo2DArrays{
       sum = 0;
       for(int row = 0; row<twoDee.length; row++)
       {
-        sum2 += twoDee[row][col];
+        sum += twoDee[row][col];
       }
-      System.out.println("Column " + col + ": " + sum2);
+      System.out.println("Column " + col + ": " + sum);
     }
     
   }
