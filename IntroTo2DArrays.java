@@ -34,9 +34,8 @@ public class IntroTo2DArrays{
     //Print out the sum of each column in the following format:
     //Column 0: ??
     //Column 1: ??
-    int x = 0;
     int sum2 = 0;
-    for(int col = 0; col<twoDee[x].length; col++)
+    for(int col = 0; col<twoDee[0].length; col++)
     {
       for(int row = 0; row<twoDee.length; row++)
       {
