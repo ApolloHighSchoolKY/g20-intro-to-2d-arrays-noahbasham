@@ -34,15 +34,14 @@ public class IntroTo2DArrays{
     //Print out the sum of each column in the following format:
     //Column 0: ??
     //Column 1: ??
-    int sum2 = 0;
     for(int col = 0; col<twoDee[0].length; col++)
     {
+      sum = 0;
       for(int row = 0; row<twoDee.length; row++)
       {
         sum2 += twoDee[row][col];
       }
       System.out.println("Column " + col + ": " + sum2);
-      sum2 = 0;
     }
     
   }
